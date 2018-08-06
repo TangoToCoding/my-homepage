@@ -1,0 +1,171 @@
+
+/* schriftstil,abstände */
+
+body
+{margin-top: 0px; margin-left: 0px; margin-right: 0px;margin-bottom: 0px; color: black;  background-color:#000000; font-family: verdana,arial; font-size: 9pt;}
+
+
+table,tr,td
+{ color: black ;font-family: verdana,arial; font-size: 10pt}
+
+/* scrolleiste internet explorer ab vers.5.5 */
+
+body
+{scrollbar-base-color: #F3F3F3;scrollbar-arrow-color: #000000;
+scrollbar-highlight-color : #000000; scrollbar-shadow-color : #F3F3F3;
+SCROLLBAR-TRACK-COLOR: #ACACAC; }
+
+
+
+/* menue linke seite */
+#menu1 a {display: block;
+background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 9pt;
+width:135px;
+padding-left: 12px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menu1 a:visited {background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 9pt;
+width:135px;
+padding-left: 12px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menu1 a:hover {background-color:#000000;
+color: #FFFFFF;
+text-decoration:none ;font-family:verdana, sans-serif; font-size:9pt;
+width:135px;
+padding-left: 12px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto ;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menu1 a:active {background-color:#FFFFFF;
+color: #000000; font-weight: bold;
+text-decoration:none; font-family:verdana, sans-serif; font-size:9pt;
+width:135px;
+padding-left: 12px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+
+
+
+/* linkpfeil */
+#menu1 a b {font-family:verdana;font-size:9pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menu1 a:visited b {font-family:verdana;font-size:9pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menu1 a:hover b {font-family:verdana;font-size:9pt;
+background-color:#B5152B;
+color:#FFBF00;
+border:solid 1px #000000;
+}
+
+#menu1 a:active b {font-family:verdana;font-size:9pt;
+background-color:#B5152B;
+color:#FFFF00;
+border:solid 1px #000000;
+}
+/* leiste für oben u. unten - homepagname,uhrzeit/datum etc */
+
+
+
+.leiste {background-color:#B5152B; color:black;  text-decoration:none ;font-family:verdana, sans-serif; font-size: 10pt;
+padding-left: 2px; padding-bottom: 2px; padding-top: 2px; margin: 0px auto;
+height:20px;}
+
+.Logo_Leiste {background-color:#FFFFFF; color:black;  text-decoration:none ;font-family:verdana, sans-serif; font-size: 10pt;
+padding-left: 2px; padding-bottom: 2px; padding-top: 2px; margin: 0px auto;}
+
+
+/* allgemeine links im text */
+
+a:link{ color: black; text-decoration:underline; ;font-family: verdana; font-size: 10pt;}
+
+a:visited{color: black;text-decoration:underline;font-family: verdana; font-size: 10pt;}
+
+a:active{ color:black;text-decoration:underline;font-family: verdana; font-size: 10pt; }
+
+a:hover{ color: #000000; background-color:#F3F3F3;   text-decoration:none;font-family: verdana; font-size: 10pt; }
+
+
+
+
+/*ab hier Layer-Link*/
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 200px;
+border: 1px solid black;
+padding: 2px;
+background-color: #B5152B;
+color:#FFFFFF;
+visibility: hidden;
+font-family: Verdana;
+font-size: 9px;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+/*ab hier Layer-Link_ENDE*/
+
+
+#klein{
+font-family:verdana;
+font-size:7pt;
+}
+
+
+
+#kleinfett{
+font-family:verdana;
+font-size:7pt;
+font-weight: bold;
+text-align: center;
+}
+
+#Email a:link{ color:#FFFFFF; text-decoration:underline; ;font-family: verdana; font-size: 7pt;}
+#Email a:visited{color:#FFFFFF;text-decoration:underline;font-family: verdana; font-size: 7pt;}
+#Email a:active{ color:#FFFFFF;text-decoration:underline;font-family: verdana; font-size: 7pt;}
+#Email a:hover{ color:#FFFFFF;background-color:#000000;   text-decoration:none;font-family: verdana; font-size: 7pt;}
+}
+
+
+#linkklein a:link{ color:#000000; text-decoration:underline; ;font-family: verdana; font-size: 8pt;}
+#linkklein a:visited{color:#000000;text-decoration:underline;font-family: verdana; font-size: 8pt;}
+#linkklein a:active{ color#000000;text-decoration:underline;font-family: verdana; font-size: 8pt;}
+#linkklein a:hover{ color:#000000;background-color:#F3F3F3; text-decoration:none;font-family: verdana; font-size: 8pt;}
+}
+
+#impressum a:link   {text-decoration:none;}
+#impressum a:visited{text-decoration:none;}
+#impressum a:active {text-decoration:none;}
+#impressum a:hover  {text-decoration:none;}
+}
+
+#Logo a:link   {text-decoration:none;color:#FFFFFF;background-color:#FFFFFF;}
+#Logo a:visited{text-decoration:none;color:#FFFFFF;background-color:#FFFFFF;}
+#Logo a:active {text-decoration:none;color:#FFFFFF;background-color:#FFFFFF;}
+#Logo a:hover {text-decoration:none;color:#FFFFFF;background-color:#FFFFFF;}
+}
+
+.imgstyle {float:right;border:0px #800000;margin-left:5px;margin-top:20px;margin-bottom:0px;margin-right:5px}
+
+.imgstyle2 {float:right;border:0px #800000;margin-left:8px;margin-top:20px;margin-bottom:0px;margin-right:20px}

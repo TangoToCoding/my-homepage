@@ -1,0 +1,237 @@
+
+#ueberschrift
+{font-weight: bold; color:#000000; background-color:#EFEFEF; font-family: verdana,arial; font-size: 22px;  letter-spacing:0.1em;}
+
+
+#text/* schriftstil und Schriftgröße aller Textdokumente im conten vom iFrame */
+{ color:black ;font-family: verdana,arial; font-size: 18px;  letter-spacing:0.1em;}
+
+
+
+/* Hauptmenue oben */
+#menu1 a {display: block;
+background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 18pt;
+width:169px;
+padding-left: 2px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menu1 a:visited
+{background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 18pt;
+width:169px;
+padding-left: 2px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+
+#menu1 a:hover {background-color:#000000;
+color: #FFFFFF;
+text-decoration:none ;font-family:verdana, sans-serif; font-size:18pt;
+width:169px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto ;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menu1 a:active {background-color:#FFFFFF;
+color: #000000; font-weight: bold;
+text-decoration:none; font-family:verdana, sans-serif; font-size:18pt;
+width:169px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+
+
+
+/* linkpfeil */
+#menu1 a b {font-family:verdana;font-size:14pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menu1 a:visited b {font-family:verdana;font-size:14pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menu1 a:hover b {font-family:verdana;font-size:14pt;
+background-color:#B5152B;
+color:#FFBF00;
+border:solid 1px #000000;
+}
+
+#menu1 a:active b {font-family:verdana;font-size:14pt;
+background-color:#B5152B;
+color:#FFFF00;
+border:solid 1px #000000;
+}
+/* Haupt Menue unten Ende */
+
+
+
+
+/* Menue unten */
+#Menue_unten a {display: block;
+background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 14pt;
+width:166px;
+padding-left: 2px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#Menue_unten a:visited {background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 14pt;
+width:166px;
+padding-left: 2px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#Menue_unten a:hover {background-color:#000000;
+color: #FFFFFF;
+text-decoration:none ;font-family:verdana, sans-serif; font-size:14pt;
+width:166px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto ;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#Menue_unten a:active {background-color:#FFFFFF;
+color: #000000; font-weight: bold;
+text-decoration:none; font-family:verdana, sans-serif; font-size:14pt;
+width:166px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+
+
+
+/* linkpfeil */
+#Menue_unten a b {font-family:verdana;font-size:12pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#Menue_unten a:visited b {font-family:verdana;font-size:12pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#Menue_unten a:hover b {font-family:verdana;font-size:12pt;
+background-color:#B5152B;
+color:#FFBF00;
+border:solid 1px #000000;
+}
+
+#Menue_unten a:active b {font-family:verdana;font-size:12pt;
+background-color:#B5152B;
+color:#FFFF00;
+border:solid 1px #000000;
+}
+/* Menue unten Ende */
+
+
+
+ /* definition der rote Leiste */
+.leiste {background-color:#B5152B; color:black;  text-decoration:none ;font-family:verdana, sans-serif; font-size: 8pt;
+padding-left: 0px; padding-bottom: 0px; padding-top: 0px; margin: 0px auto;
+height:20px;}
+
+
+
+
+
+/*definition von Email*/
+#Email a:link{ color:#000000; text-decoration:underline; font-family: verdana; font-size: 14pt;}
+#Email a:visited{color:#000000;text-decoration:underline;font-family: verdana; font-size: 14pt;}
+#Email a:active{ color:#000000;text-decoration:underline;font-family: verdana; font-size: 14pt;}
+#Email a:hover{ color:#FFFFFF;background-color:#000000;   text-decoration:none;font-family: verdana; font-size: 14pt;}
+
+
+
+#klein {
+        color:#3E3E3E;
+        font-family:verdana,arial;
+        font-size:12px;
+        letter-spacing:0.1em;
+        }
+
+/*definition von Email-Impressum */
+#Email_klein a:link{ color:#000000; text-decoration:underline; font-family: verdana; font-size: 10pt;}
+#Email_klein a:visited{color:#000000;text-decoration:underline;font-family: verdana; font-size: 10pt;}
+#Email_klein a:active{ color:#000000;text-decoration:underline;font-family: verdana; font-size: 10pt;}
+#Email_klein a:hover{ color:#FFFFFF;background-color:#000000;text-decoration:none;font-family: verdana; font-size: 10pt;}
+
+
+
+
+
+
+
+.imgstyle {float:right;border:0px #800000;margin-left:12px;margin-top:20px;margin-bottom:0px;margin-right:12px}
+
+.imgstyle2 {float:right;border:0px #800000;margin-left:8px;margin-top:20px;margin-bottom:0px;margin-right:20px}
+
+
+
+/* menue Vera */
+#menuVera a {display: block;
+background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 14pt;
+width:140px;
+padding-left: 2px;  padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menuVera a:visited {background-color:#FFFFFF;
+color:black; text-decoration:none ;font-family:verdana, sans-serif; font-size: 14pt;
+width:140px;
+padding-left: 2px; padding-bottom: 2px;padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menuVera a:hover {background-color:#000000;
+color: #FFFFFF;
+text-decoration:none ;font-family:verdana, sans-serif; font-size:14pt;
+width:140px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto ;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+#menuVera a:active {background-color:#FFFFFF;
+color: #000000; font-weight: bold;
+text-decoration:none; font-family:verdana, sans-serif; font-size:14pt;
+width:140px;
+padding-left: 2px; padding-bottom: 2px;   padding-top: 2px;margin: 0px auto;
+border-bottom:solid 1px #FFFFFF;
+border-top:solid 1px #FFFFFF;}
+
+ /* linkpfeil */
+#menuVera a b {font-family:verdana;font-size:12pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menuVera a:visited b {font-family:verdana;font-size:12pt;
+background-color:#FFFFFF;
+color:#000000;
+border:solid 1px #000000;
+}
+
+#menuVera a:hover b {font-family:verdana;font-size:12pt;
+background-color:#B5152B;
+color:#FFBF00;
+border:solid 1px #000000;
+}
+
+#menuVera a:active b {font-family:verdana;font-size:12pt;
+background-color:#B5152B;
+color:#FFFF00;
+border:solid 1px #000000;
+}
